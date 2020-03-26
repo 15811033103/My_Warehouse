@@ -1,0 +1,11 @@
+-
+  - "sd"
+  - "sd"
+  - "sd"
+
+# 列表中嵌套字典 [{'user name': 'dasdx'}, {'fdgdf': 'xcx'}, {'dsasdw': 'verter', 'dsad': 'weqw'}]
+---
+- user name: "dasdx"
+- fdgdf: "xcx"
+- dsasdw: "verter"
+  dsad: "打算打算的"

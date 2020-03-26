@@ -1,0 +1,9 @@
+BASE: 
+  #log等级
+  log_level: "debug"
+  #扩展名
+  log_extension: ".log"
+  test: 
+    url: "https://api.xiaobangtouzi.com"
+    case_file: "/Users/chenshuai/Desktop/cspytest/testcase/t_excel/test_data.xlsx"
+    case_sheet: "测试页"

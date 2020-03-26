@@ -1,0 +1,13 @@
+import logging
+logger = logging.getLogger("log_demo")
+logger.setLevel(logging.INFO)
+fh_shrem = logging.StreamHandler()
+fh_file = logging.FileHandler("/Users/chenshuai/Desktop/my_request/logs/logs.log")
+fh_shrem.setLevel(logging.INFO)
+fh_file.setLevel(logging.INFO)
+formatter = logging.Formatter("%(asctime)s %(name)s %(levelname)s %(message)s")
+fh_shrem.setFormatter(formatter)
+fh_file.setFormatter(formatter)
+logger.addHandler(fh_shrem)
+logger.addHandler(fh_file)
+logger.info("sadasd11a")

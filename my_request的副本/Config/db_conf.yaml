@@ -1,0 +1,6 @@
+#编写相关基本信息
+db_1:
+  db_host: "localhost"
+  db_user: "root"
+  db_password: "chenshua1"
+  db_name: "test_db"
